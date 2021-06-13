@@ -1,0 +1,65 @@
+{
+    "db":{
+      "mysql":{
+  
+      },
+      "sequelize":{
+        "url": "sebastiantest.cnrpywc4n7aa.us-east-1.rds.amazonaws.com",
+        "port": 3306,
+        "db":"sebastiantest",
+        "username":"sesantander",
+        "password":"3e669eb",
+        "dialect":"mysql",
+        "protocol":"mysql"
+      }
+    },
+    "jwt":{
+      "key":"myPrivateKey"
+    },
+    "bcrypt":{
+      "saltRounds": 10
+    },
+    "google_admin":{
+        "config": {
+          "type": "service_account",
+          "project_id": "tonfro-dev",
+          "private_key_id": "b3419daffc477542c8f120533cd46faa0bf0b3e9",
+          "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDLpvZDVFizP1rw\npMV/fSETrZUWtxGsicYbuHozE29TmhK5FuHYxWNSYHSdjs0KWLXWTD3ul5WVx/QP\nZS80Y5jfUv8dcK5AJMiAUxGzduiNm9+DzNYVOWOYCNcPkledCmFIsvE9KWPHDb+v\n9uBoAFOb+rqZWdLFDD5Rf6ZOKsYv0vuZFMIOqlTKk8AIIhxQY42uWzuED+Z6hBth\nfSd7FQsjcgOGoYLcn4paAxR2QGOvI10dpP6RtRRpzjg7b7suqzMss8fvnpSEh5am\n4dLx4fScRZwec76LQhIQzX2XlV13mNJo+ZW1K3W4qxJeaSr9Fpaa57EWmta7U8fF\nyjkQFAdvAgMBAAECggEALQxs0y34RQZRtoOsUGw8gd7W6ORsG2+KjB09osi8ypB9\nbcX7BXl8Y/+ELEonXw+KgbHxzTJo224UtccbLwqNCXGRj1CaqwO3+nLlqn42KQT+\n52fLP3ynZD0oXYBwswNVy8ARjwb11FVdPq5sq3TPCeTnm/57mi0AKAUFo6rgljk/\nb/M1RpNxIB5vKltXPo1Go4M69XUVaEn0rlW3Mx60TBO9Aqm6BwHnU3mX0JS6YO6Z\nTOrGtMxPwU/6bjYeVwJZqN6ksJzuuFNTIFVRQPxAef2j6D5DtNn69gV7FR+mdaLI\n9ZUgJTkUXb+K1P+zehhWftEXcOBqVVSHnDU6cYwZAQKBgQDreV9FCUCxB7HMq/Mg\nQLPNGMUNlBZ7llU+sbpZCbJTeAGRCQeVM62nIP4KrUc85S9wnoKBYeDPMRNuDG5i\nLlU4jw1izdwl4jineFubnT/4lA7uzU1m2FIzVtlR7lC5KJe1vHtXK0DDlUssxnjF\n+XEyvj8ZfJy3NVNB6/+X27tHgQKBgQDdZ3sNI32ZdM2VwRzJEIHfDK4ZTLw/8EFZ\n9AFcuRUHZzR1ajdu0kAFohLOlu+rYJnFeqpqZ8WjnVq2cAz5n61KQNRwe2J8Yrxb\nqns9WM8YOpwcci+4ZYs8VfYzETZzlTYmC01H+uTbqDk7PzYxB78FMLRHHPiBATFD\nI+0Wli9G7wKBgGNClIBbeCOn5LEsQp5z59cq+9XPePK72k9FSBJEXiGFUtO6hLHG\nSQtMgwopJQBsc+T7THQRuFxeiZw4LUfB1Da1RqVBte1aQRuHRsaAMPkuIGVVsa0K\nvwvZLl61IN4MWHdJboy+NNy9UCUdvMdncOo8/AhYWQ95sRD21JVFENsBAoGBAKzT\n2FQ7PhIKAWlC44t4XUiWB1ksc06d5wWm2WFeALJUt7hn/3l8mglLqM6nN9NZhu+G\nf3ysILVFYchD030QTh9GWA6t4gUitdIAVE9hAdfx+GakI+gXLAcfOx5F83FqKmis\nLdlgWkG1IWfEQjMnzs7oY/GXBcz990xnwOz+s0z1AoGAUOpdPH+L+JrIF6y2q614\nPfw05kejr/Nkw0vnwkwev5hklW/C5oyRlKbjve5OrxNBnokw9M8ZZEahp5xWi+Gu\n25uFKsmZ5rB+rNm4L6jfJcbVQ1yTS2M8ccKrzZNbB0EL2PliHmrJGgODbmMvA2kX\nXhmMrF414oHFKf+8kBdWHPw=\n-----END PRIVATE KEY-----\n",
+          "client_email": "firebase-adminsdk-oecg7@tonfro-dev.iam.gserviceaccount.com",
+          "client_id": "118086241384950749650",
+          "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+          "token_uri": "https://oauth2.googleapis.com/token",
+          "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+          "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-oecg7%40tonfro-dev.iam.gserviceaccount.com"
+        },
+        "db": "https://tonfro-dev.firebaseio.com"
+      },
+      "googleSignIn":{
+        "client": "456806554322-si4q2bcs08a4j0n8g7oki7sav86v9jhq.apps.googleusercontent.com",
+        "clients":[
+               "456806554322-7ig0nl5l7fnjfi3p14n71nckoigm7n4u.apps.googleusercontent.com",
+               "456806554322-r0tfvj54gc2giqo819ifnns0mps9gj0r.apps.googleusercontent.com",
+               "456806554322-si4q2bcs08a4j0n8g7oki7sav86v9jhq.apps.googleusercontent.com"  
+        ]
+      },
+    "razorPay":{
+      "id": "rzp_test_0BHVYQoVWSZpst",
+      "secret": "FHkKLelg6Lu3b23xUQr3myBK",
+      "webKey":"1234512345"
+    },
+    "emailConfig":{
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "secure": false,
+      "requireTLS": true,
+      "service": "Gmail",
+      "auth":{
+        "user": "tonfrodev@gmail.com",
+        "pass": "tnf@1234"
+      }
+    },
+    "fb":{
+    "api_key": "494182051225706",
+    "api_secret": "139994c0e20aefc86f3613e2d319303f"
+    }
+  }

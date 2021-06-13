@@ -1,0 +1,60 @@
+{
+  "local": {
+    "username": "sesantander",
+    "password": "3e6696eb",
+    "database": "sebastiantest",
+    "host": "sebastiantest.cnrpywc4n7aa.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "define":{
+      "timestamps":true
+    }
+  },
+  "development": {
+    "username": "sesantander",
+    "password": "3e6696eb",
+    "database": "sebastiantest",
+    "host": "sebastiantest.cnrpywc4n7aa.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "define":{
+      "timestamps":true
+    }
+  },
+  "test": {
+    "username": "root_test",
+    "password": "xxxxxxxxx",
+    "database": "db_test",
+    "host": "127.0.01",
+    "dialect": "mysql",
+    "dialectOptions":{
+      "typeCast":true
+    },
+    "timezone": "+05:30"
+  },
+  "staging": {
+    "username": "root_staging",
+    "password": "xxxxxxxxxxxx",
+    "database": "db_staging",
+    "host": "ec2-52-71-122-102.compute-1.amazonaws.com",
+    "port":5432,
+    "dialect": "postgres",
+    "protocol":"postgres",
+    "operatorsAliases": false,
+    "dialectOptions":{
+      "useUTC": false,
+      "typeCast":true
+    },
+    "timezone": "+05:30"
+  },
+  "production": {
+    "username": "root",
+    "password": "root1234",
+    "database": "db_staging_migDB3__20201118__1142",
+    "host": "tnfdbserver-staging.cnhrebnphnxw.us-east-2.rds.amazonaws.com",
+    "dialect": "mysql",
+    "dialectOptions":{
+	"useUTC":false,    
+      "typeCast":true
+    },
+    "timezone": "+05:30"
+  }
+}
